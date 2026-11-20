@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#241E16"/>
+      <stop offset="55%" stop-color="#11100E"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect x="36" y="36" width="728" height="928" fill="none" stroke="#C8A97E" stroke-opacity="0.24" stroke-width="1.5"/>
+  <!-- Slick Back swept flow lines -->
+  <g transform="translate(400, 440)">
+    <circle cx="0" cy="-20" r="240" fill="none" stroke="#C8A97E" stroke-opacity="0.14"/>
+    <path d="M -195 345 C -175 205 -100 140 0 140 C 100 140 175 205 195 345" fill="#141311" stroke="#C8A97E" stroke-opacity="0.65" stroke-width="2"/>
+    <path d="M -86 -48 C -88 58 -50 128 0 132 C 50 128 88 58 86 -48 Z" fill="#181614" stroke="#C8A97E" stroke-opacity="0.5" stroke-width="1.8"/>
+    <path d="M -92 -42 C -106 -140 -52 -204 20 -204 C 82 -204 106 -138 92 -44 C 58 -92 -52 -92 -92 -42 Z" fill="#1E1A15" stroke="#D4BC96" stroke-width="2.2"/>
+    <!-- Parallel swept-back flow lines -->
+    <path d="M -62 -118 Q 0 -174 68 -118" fill="none" stroke="#E5D1B0" stroke-opacity="0.72" stroke-width="1.6"/>
+    <path d="M -72 -136 Q 0 -196 76 -136" fill="none" stroke="#C8A97E" stroke-opacity="0.55" stroke-width="1.4"/>
+    <path d="M -52 -156 Q 0 -212 58 -156" fill="none" stroke="#C8A97E" stroke-opacity="0.4" stroke-width="1.2"/>
+  </g>
+  <text x="84" y="108" fill="#C8A97E" font-family="Georgia, serif" font-style="italic" font-size="22" letter-spacing="4">04 · CORTE DE CABELO</text>
+  <text x="84" y="886" fill="#FAFAF9" font-family="Arial, sans-serif" font-weight="700" font-size="34" letter-spacing="5">SLICK BACK ALINHADO</text>
+  <text x="84" y="922" fill="#999999" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">FIOS LONGOS · CONTORNO NA NAVALHA</text>
+</svg>

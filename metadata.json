@@ -1,0 +1,6 @@
+{
+  "name": "BLADE & CO. — Barbearia Clássica & Agendamento",
+  "description": "Barbearia clássica contemporânea em São Paulo com cortes de precisão, barboterapia à navalha e agendamento online em tempo real.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

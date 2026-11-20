@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#251F16"/>
+      <stop offset="55%" stop-color="#12110F"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect x="36" y="36" width="728" height="928" fill="none" stroke="#C8A97E" stroke-opacity="0.24" stroke-width="1.5"/>
+  <!-- Short Boxed Executive Beard -->
+  <g transform="translate(400, 445)">
+    <circle cx="0" cy="-10" r="236" fill="none" stroke="#C8A97E" stroke-opacity="0.14"/>
+    <path d="M -200 345 C -180 205 -105 145 0 145 C 105 145 180 205 200 345" fill="#141311" stroke="#C8A97E" stroke-opacity="0.6" stroke-width="2"/>
+    <path d="M -86 -125 L -86 15 C -86 92 -48 142 0 148 C 48 142 86 92 86 15 L 86 -125 Z" fill="#181614" stroke="#C8A97E" stroke-opacity="0.45" stroke-width="1.6"/>
+    <!-- Clean short boxed beard -->
+    <path d="M -88 -10 C -88 86 -48 144 0 150 C 48 144 88 86 88 -10 C 60 10 24 18 0 16 C -24 18 -60 10 -88 -10 Z" fill="#1F1A14" stroke="#D4BC96" stroke-width="2.2"/>
+    <path d="M -46 34 Q 0 22 46 34" fill="none" stroke="#E5D1B0" stroke-width="2"/>
+    <!-- Sideburn taper highlights -->
+    <line x1="-88" y1="-34" x2="-74" y2="-16" stroke="#C8A97E" stroke-opacity="0.7" stroke-width="1.5"/>
+    <line x1="88" y1="-34" x2="74" y2="-16" stroke="#C8A97E" stroke-opacity="0.7" stroke-width="1.5"/>
+  </g>
+  <text x="84" y="108" fill="#C8A97E" font-family="Georgia, serif" font-style="italic" font-size="22" letter-spacing="4">06 · ESTILO DE BARBA</text>
+  <text x="84" y="886" fill="#FAFAF9" font-family="Arial, sans-serif" font-weight="700" font-size="34" letter-spacing="5">BARBA EXECUTIVA CURTA</text>
+  <text x="84" y="922" fill="#999999" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">DEGRADÊ NA COSTELETA · ALINHAMENTO PRECISO</text>
+</svg>

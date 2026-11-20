@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#221E18"/>
+      <stop offset="55%" stop-color="#11100F"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <linearGradient id="fadeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E5D1B0" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#C8A97E" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#C8A97E" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect x="36" y="36" width="728" height="928" fill="none" stroke="#C8A97E" stroke-opacity="0.24" stroke-width="1.5"/>
+  <!-- Profile silhouette: Skin Fade -->
+  <g transform="translate(400, 440)">
+    <circle cx="0" cy="-15" r="240" fill="none" stroke="#C8A97E" stroke-opacity="0.14"/>
+    <!-- Neck & shoulder line -->
+    <path d="M -185 345 C -160 205 -90 155 0 155 C 90 155 160 205 185 345" fill="#141311" stroke="#C8A97E" stroke-opacity="0.65" stroke-width="2"/>
+    <!-- Profile head -->
+    <path d="M -78 -135 C -98 -65 -102 35 -72 110 C -44 152 24 155 68 112 C 102 68 104 -45 86 -125 Z" fill="#181614" stroke="#C8A97E" stroke-opacity="0.55" stroke-width="1.8"/>
+    <!-- Textured crop top + razor zero fade zone -->
+    <path d="M -84 -128 C -92 -186 -36 -215 36 -202 C 84 -192 98 -150 88 -108 C 52 -128 -18 -132 -84 -128 Z" fill="#231D16" stroke="#D4BC96" stroke-width="2.2"/>
+    <!-- Crisp fade transition bands -->
+    <rect x="-82" y="-110" width="164" height="84" rx="8" fill="url(#fadeGrad)" opacity="0.26"/>
+    <line x1="-82" y1="-102" x2="82" y2="-102" stroke="#E5D1B0" stroke-opacity="0.65" stroke-width="1.5"/>
+    <line x1="-82" y1="-84" x2="82" y2="-84" stroke="#C8A97E" stroke-opacity="0.45" stroke-width="1.2"/>
+    <line x1="-82" y1="-66" x2="82" y2="-66" stroke="#C8A97E" stroke-opacity="0.28" stroke-width="1"/>
+    <line x1="-78" y1="-48" x2="78" y2="-48" stroke="#C8A97E" stroke-opacity="0.15" stroke-width="1"/>
+  </g>
+  <text x="84" y="108" fill="#C8A97E" font-family="Georgia, serif" font-style="italic" font-size="22" letter-spacing="4">02 · CORTE DE CABELO</text>
+  <text x="84" y="886" fill="#FAFAF9" font-family="Arial, sans-serif" font-weight="700" font-size="34" letter-spacing="5">SKIN FADE NAVALHADO</text>
+  <text x="84" y="922" fill="#999999" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">DEGRADÊ ZERO · TRANSIÇÃO MILIMÉTRICA</text>
+</svg>

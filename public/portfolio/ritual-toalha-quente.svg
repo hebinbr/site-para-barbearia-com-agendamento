@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#292116"/>
+      <stop offset="55%" stop-color="#12110F"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </radialGradient>
+    <linearGradient id="blade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FAFAF9"/>
+      <stop offset="55%" stop-color="#C8A97E"/>
+      <stop offset="100%" stop-color="#7A6240"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect x="36" y="36" width="728" height="928" fill="none" stroke="#C8A97E" stroke-opacity="0.24" stroke-width="1.5"/>
+  <!-- Hot towel & straight razor ritual -->
+  <g transform="translate(400, 440)">
+    <circle cx="0" cy="0" r="228" fill="none" stroke="#C8A97E" stroke-opacity="0.16"/>
+    <!-- Steam waves -->
+    <path d="M -80 -55 Q -105 -105 -80 -150 Q -55 -195 -80 -235" fill="none" stroke="#C8A97E" stroke-opacity="0.45" stroke-width="2"/>
+    <path d="M 0 -75 Q -25 -125 0 -170 Q 25 -215 0 -255" fill="none" stroke="#E5D1B0" stroke-opacity="0.6" stroke-width="2.2"/>
+    <path d="M 80 -55 Q 55 -105 80 -150 Q 105 -195 80 -235" fill="none" stroke="#C8A97E" stroke-opacity="0.45" stroke-width="2"/>
+    <!-- Folded cotton hot towel -->
+    <path d="M -155 40 Q 0 5 155 40 L 130 115 Q 0 85 -130 115 Z" fill="#1F1C18" stroke="#C8A97E" stroke-opacity="0.6" stroke-width="2"/>
+    <!-- Straight Razor diagonally across -->
+    <g transform="translate(0, 175) rotate(-14)">
+      <path d="M -160 -10 L 20 -12 L 32 6 L -152 14 Z" fill="url(#blade)"/>
+      <rect x="16" y="-12" width="155" height="20" rx="8" fill="#141311" stroke="#C8A97E" stroke-width="2"/>
+      <circle cx="28" cy="-2" r="3.5" fill="#C8A97E"/>
+    </g>
+  </g>
+  <text x="84" y="108" fill="#C8A97E" font-family="Georgia, serif" font-style="italic" font-size="22" letter-spacing="4">08 · BARBOTERAPIA</text>
+  <text x="84" y="886" fill="#FAFAF9" font-family="Arial, sans-serif" font-weight="700" font-size="34" letter-spacing="5">RITUAL TOALHA QUENTE</text>
+  <text x="84" y="922" fill="#999999" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">VAPOR DE EUCALIPTO · NAVALHA JAPONESA</text>
+</svg>

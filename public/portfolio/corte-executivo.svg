@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#262018"/>
+      <stop offset="55%" stop-color="#12110F"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E5D1B0"/>
+      <stop offset="50%" stop-color="#C8A97E"/>
+      <stop offset="100%" stop-color="#8A6D43"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect x="36" y="36" width="728" height="928" fill="none" stroke="#C8A97E" stroke-opacity="0.24" stroke-width="1.5"/>
+  <rect x="52" y="52" width="696" height="896" fill="none" stroke="#C8A97E" stroke-opacity="0.08" stroke-width="1"/>
+  <!-- Hairline portrait silhouette: Executive Taper -->
+  <g transform="translate(400, 445)">
+    <circle cx="0" cy="-20" r="245" fill="none" stroke="#C8A97E" stroke-opacity="0.14" stroke-dasharray="6 10"/>
+    <!-- Shoulders & tailored lapel -->
+    <path d="M -210 350 C -195 190 -110 130 0 130 C 110 130 195 190 210 350" fill="#141311" stroke="url(#gold)" stroke-width="2"/>
+    <path d="M -68 138 L 0 250 L 68 138" fill="none" stroke="#C8A97E" stroke-opacity="0.7" stroke-width="2"/>
+    <!-- Head contour -->
+    <path d="M -88 -50 C -92 55 -52 128 0 132 C 52 128 92 55 88 -50 Z" fill="#181614" stroke="#C8A97E" stroke-opacity="0.55" stroke-width="1.8"/>
+    <!-- Sculpted Executive Taper Hairline -->
+    <path d="M -94 -48 C -106 -140 -62 -208 12 -206 C 72 -204 104 -152 94 -52 C 74 -92 38 -114 -16 -108 C -56 -104 -76 -80 -94 -48 Z" fill="#1F1B16" stroke="url(#gold)" stroke-width="2.2"/>
+    <path d="M -72 -136 C -20 -158 34 -152 72 -124" fill="none" stroke="#E5D1B0" stroke-opacity="0.55" stroke-width="1.4"/>
+    <path d="M -56 -166 C -10 -184 32 -178 62 -156" fill="none" stroke="#C8A97E" stroke-opacity="0.4" stroke-width="1.2"/>
+    <!-- Taper graduation lines at temple -->
+    <line x1="-88" y1="-44" x2="-74" y2="-22" stroke="#C8A97E" stroke-opacity="0.6" stroke-width="1.5"/>
+    <line x1="-88" y1="-28" x2="-76" y2="-10" stroke="#C8A97E" stroke-opacity="0.45" stroke-width="1.2"/>
+    <line x1="88" y1="-44" x2="74" y2="-22" stroke="#C8A97E" stroke-opacity="0.6" stroke-width="1.5"/>
+    <line x1="88" y1="-28" x2="76" y2="-10" stroke="#C8A97E" stroke-opacity="0.45" stroke-width="1.2"/>
+  </g>
+  <text x="84" y="108" fill="#C8A97E" font-family="Georgia, serif" font-style="italic" font-size="22" letter-spacing="4">01 · CORTE DE CABELO</text>
+  <text x="84" y="886" fill="#FAFAF9" font-family="Arial, sans-serif" font-weight="700" font-size="34" letter-spacing="5">EXECUTIVE TAPER</text>
+  <text x="84" y="922" fill="#999999" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">TESOURA &amp; PENTE · NUCA GRADUADA</text>
+</svg>
